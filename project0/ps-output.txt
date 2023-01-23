@@ -1,0 +1,224 @@
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 20:12 ?        00:00:02 /sbin/init
+root           2       0  0 20:12 ?        00:00:00 [kthreadd]
+root           3       2  0 20:12 ?        00:00:00 [rcu_gp]
+root           4       2  0 20:12 ?        00:00:00 [rcu_par_gp]
+root           5       2  0 20:12 ?        00:00:00 [slub_flushwq]
+root           6       2  0 20:12 ?        00:00:00 [netns]
+root           8       2  0 20:12 ?        00:00:00 [kworker/0:0H-events_highpri]
+root          10       2  0 20:12 ?        00:00:00 [mm_percpu_wq]
+root          11       2  0 20:12 ?        00:00:00 [rcu_tasks_rude_]
+root          12       2  0 20:12 ?        00:00:00 [rcu_tasks_trace]
+root          13       2  0 20:12 ?        00:00:00 [ksoftirqd/0]
+root          14       2  0 20:12 ?        00:00:00 [rcu_sched]
+root          15       2  0 20:12 ?        00:00:00 [migration/0]
+root          16       2  0 20:12 ?        00:00:00 [idle_inject/0]
+root          18       2  0 20:12 ?        00:00:00 [cpuhp/0]
+root          19       2  0 20:12 ?        00:00:00 [cpuhp/1]
+root          20       2  0 20:12 ?        00:00:00 [idle_inject/1]
+root          21       2  0 20:12 ?        00:00:00 [migration/1]
+root          22       2  0 20:12 ?        00:00:00 [ksoftirqd/1]
+root          24       2  0 20:12 ?        00:00:00 [kworker/1:0H-events_highpri]
+root          25       2  0 20:12 ?        00:00:00 [cpuhp/2]
+root          26       2  0 20:12 ?        00:00:00 [idle_inject/2]
+root          27       2  0 20:12 ?        00:00:00 [migration/2]
+root          28       2  0 20:12 ?        00:00:00 [ksoftirqd/2]
+root          30       2  0 20:12 ?        00:00:00 [kworker/2:0H-events_highpri]
+root          31       2  0 20:12 ?        00:00:00 [cpuhp/3]
+root          32       2  0 20:12 ?        00:00:00 [idle_inject/3]
+root          33       2  0 20:12 ?        00:00:00 [migration/3]
+root          34       2  0 20:12 ?        00:00:00 [ksoftirqd/3]
+root          36       2  0 20:12 ?        00:00:00 [kworker/3:0H-events_highpri]
+root          37       2  0 20:12 ?        00:00:00 [cpuhp/4]
+root          38       2  0 20:12 ?        00:00:00 [idle_inject/4]
+root          39       2  0 20:12 ?        00:00:00 [migration/4]
+root          40       2  0 20:12 ?        00:00:00 [ksoftirqd/4]
+root          42       2  0 20:12 ?        00:00:00 [kworker/4:0H-events_highpri]
+root          43       2  0 20:12 ?        00:00:00 [cpuhp/5]
+root          44       2  0 20:12 ?        00:00:00 [idle_inject/5]
+root          45       2  0 20:12 ?        00:00:00 [migration/5]
+root          46       2  0 20:12 ?        00:00:00 [ksoftirqd/5]
+root          47       2  0 20:12 ?        00:00:00 [kworker/5:0-events]
+root          48       2  0 20:12 ?        00:00:00 [kworker/5:0H-events_highpri]
+root          49       2  0 20:12 ?        00:00:00 [kdevtmpfs]
+root          50       2  0 20:12 ?        00:00:00 [inet_frag_wq]
+root          51       2  0 20:12 ?        00:00:00 [kworker/2:1-mm_percpu_wq]
+root          52       2  0 20:12 ?        00:00:00 [kworker/1:1-events]
+root          54       2  0 20:12 ?        00:00:00 [kworker/4:1-events]
+root          56       2  0 20:12 ?        00:00:00 [kauditd]
+root          57       2  0 20:12 ?        00:00:00 [khungtaskd]
+root          58       2  0 20:12 ?        00:00:00 [oom_reaper]
+root          59       2  0 20:12 ?        00:00:00 [writeback]
+root          60       2  0 20:12 ?        00:00:00 [kcompactd0]
+root          61       2  0 20:12 ?        00:00:00 [ksmd]
+root          62       2  0 20:12 ?        00:00:00 [khugepaged]
+root         108       2  0 20:12 ?        00:00:00 [kintegrityd]
+root         109       2  0 20:12 ?        00:00:00 [kblockd]
+root         110       2  0 20:12 ?        00:00:00 [blkcg_punt_bio]
+root         111       2  0 20:12 ?        00:00:00 [tpm_dev_wq]
+root         112       2  0 20:12 ?        00:00:00 [ata_sff]
+root         113       2  0 20:12 ?        00:00:00 [md]
+root         114       2  0 20:12 ?        00:00:00 [edac-poller]
+root         115       2  0 20:12 ?        00:00:00 [devfreq_wq]
+root         116       2  0 20:12 ?        00:00:00 [watchdogd]
+root         117       2  0 20:12 ?        00:00:00 [kworker/u12:1-events_unbound]
+root         118       2  0 20:12 ?        00:00:00 [kworker/1:1H-kblockd]
+root         119       2  0 20:12 ?        00:00:00 [kswapd0]
+root         120       2  0 20:12 ?        00:00:00 [ecryptfs-kthrea]
+root         122       2  0 20:12 ?        00:00:00 [kthrotld]
+root         123       2  0 20:12 ?        00:00:00 [irq/49-ACPI:Ged]
+root         124       2  0 20:12 ?        00:00:00 [acpi_thermal_pm]
+root         125       2  0 20:12 ?        00:00:00 [kworker/u12:2-flush-253:0]
+root         126       2  0 20:12 ?        00:00:00 [mld]
+root         127       2  0 20:12 ?        00:00:00 [ipv6_addrconf]
+root         136       2  0 20:12 ?        00:00:00 [kstrp]
+root         139       2  0 20:12 ?        00:00:00 [zswap-shrink]
+root         140       2  0 20:12 ?        00:00:00 [kworker/u13:0]
+root         143       2  0 20:12 ?        00:00:00 [kworker/2:2-cgroup_destroy]
+root         144       2  0 20:12 ?        00:00:00 [cryptd]
+root         182       2  0 20:12 ?        00:00:00 [charger_manager]
+root         204       2  0 20:12 ?        00:00:00 [kworker/3:1H-kblockd]
+root         241       2  0 20:12 ?        00:00:00 [kworker/0:1H-kblockd]
+root         244       2  0 20:12 ?        00:00:00 [kworker/5:1H-kblockd]
+root         246       2  0 20:12 ?        00:00:00 [kworker/2:1H-kblockd]
+root         282       2  0 20:12 ?        00:00:00 [kworker/4:1H-kblockd]
+root         284       2  0 20:12 ?        00:00:00 [kdmflush]
+root         313       2  0 20:12 ?        00:00:00 [raid5wq]
+root         376       2  0 20:12 ?        00:00:00 [jbd2/dm-0-8]
+root         377       2  0 20:12 ?        00:00:00 [ext4-rsv-conver]
+root         410       2  0 20:12 ?        00:00:00 [hwrng]
+root         452       1  0 20:12 ?        00:00:00 /lib/systemd/systemd-journald
+root         486       2  0 20:12 ?        00:00:00 [kaluad]
+root         488       2  0 20:12 ?        00:00:00 [kworker/3:2-events]
+root         490       2  0 20:12 ?        00:00:00 [kmpath_rdacd]
+root         491       2  0 20:12 ?        00:00:00 [kmpathd]
+root         492       2  0 20:12 ?        00:00:00 [kmpath_handlerd]
+root         495       1  0 20:12 ?        00:00:00 /sbin/multipathd -d -s
+root         498       2  0 20:12 ?        00:00:00 [kworker/u12:3-flush-253:0]
+root         500       1  0 20:12 ?        00:00:00 /lib/systemd/systemd-udevd
+root         577       2  0 20:12 ?        00:00:00 [scsi_eh_0]
+root         578       2  0 20:12 ?        00:00:00 [scsi_tmf_0]
+root         579       2  0 20:12 ?        00:00:00 [usb-storage]
+root         594       2  0 20:12 ?        00:00:00 [uas]
+root         639       2  0 20:12 ?        00:00:00 [kworker/3:3-events]
+root         654       2  0 20:12 ?        00:00:00 [jbd2/vda2-8]
+root         655       2  0 20:12 ?        00:00:00 [ext4-rsv-conver]
+systemd+     694       1  0 20:12 ?        00:00:03 /lib/systemd/systemd-oomd
+systemd+     695       1  0 20:12 ?        00:00:00 /lib/systemd/systemd-timesyncd
+root         697       2  0 20:12 ?        00:00:00 [kworker/1:3-events]
+systemd+     730       1  0 20:12 ?        00:00:00 /lib/systemd/systemd-networkd
+systemd+     732       1  0 20:12 ?        00:00:00 /lib/systemd/systemd-resolved
+avahi        754       1  0 20:12 ?        00:00:00 avahi-daemon: running [ubuntu-vm.local]
+message+     755       1  0 20:12 ?        00:00:00 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         756       1  0 20:12 ?        00:00:00 /usr/sbin/NetworkManager --no-daemon
+root         761       1  0 20:12 ?        00:00:00 /usr/sbin/irqbalance --foreground
+root         762       1  0 20:12 ?        00:00:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         763       1  0 20:12 ?        00:00:00 /usr/libexec/polkitd --no-debug
+root         764       1  0 20:12 ?        00:00:00 /usr/libexec/power-profiles-daemon
+syslog       765       1  0 20:12 ?        00:00:00 /usr/sbin/rsyslogd -n -iNONE
+root         770       1  0 20:12 ?        00:00:00 /usr/libexec/accounts-daemon
+root         773       1  0 20:12 ?        00:00:00 /usr/libexec/switcheroo-control
+root         774       1  0 20:12 ?        00:00:00 /lib/systemd/systemd-logind
+root         775       1  0 20:12 ?        00:00:00 /usr/libexec/udisks2/udisksd
+root         777       1  0 20:12 ?        00:00:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+avahi        785     754  0 20:12 ?        00:00:00 avahi-daemon: chroot helper
+root         810       1  0 20:12 ?        00:00:00 /usr/sbin/cupsd -l
+root         820       1  0 20:12 ?        00:00:00 /usr/sbin/ModemManager
+root         822       1  0 20:12 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+lp           854     810  0 20:12 ?        00:00:00 /usr/lib/cups/notifier/dbus dbus://
+root         866       1  0 20:12 ?        00:00:00 /usr/sbin/cups-browsed
+root         876       1  0 20:12 ?        00:00:00 /usr/sbin/cron -f -P
+kernoops     887       1  0 20:12 ?        00:00:00 /usr/sbin/kerneloops --test
+root         899       1  0 20:12 ?        00:00:00 /sbin/agetty -o -p -- \u --keep-baud 115200,57600,38400,9600 ttyAMA0 vt220
+kernoops     902       1  0 20:12 ?        00:00:00 /usr/sbin/kerneloops
+root         912       1  0 20:12 ?        00:00:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+root         926       2  0 20:12 ?        00:00:00 [kworker/0:3-events]
+root         941       1  0 20:12 ?        00:00:00 /usr/sbin/gdm3
+rtkit       1036       1  0 20:12 ?        00:00:00 /usr/libexec/rtkit-daemon
+root        1118       1  0 20:12 ?        00:00:00 /usr/libexec/upowerd
+root        1152       1  0 20:12 ?        00:00:00 /usr/libexec/packagekitd
+colord      1307       1  0 20:12 ?        00:00:00 /usr/libexec/colord
+root        1361       1  0 20:12 ?        00:00:00 /usr/sbin/spice-vdagentd
+root        1392     941  0 20:13 ?        00:00:00 gdm-session-worker [pam/gdm-password]
+jarkin      1397       1  0 20:13 ?        00:00:00 /lib/systemd/systemd --user
+jarkin      1398    1397  0 20:13 ?        00:00:00 (sd-pam)
+jarkin      1404    1397  0 20:13 ?        00:00:00 /usr/bin/pipewire
+jarkin      1405    1397  0 20:13 ?        00:00:00 /usr/bin/pipewire-media-session
+jarkin      1406    1397  0 20:13 ?        00:00:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+jarkin      1410    1397  0 20:13 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+jarkin      1412       1  0 20:13 ?        00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+jarkin      1418    1397  0 20:13 ?        00:00:00 /usr/libexec/gvfsd
+jarkin      1423    1397  0 20:13 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+jarkin      1433    1397  0 20:13 ?        00:00:00 /usr/libexec/tracker-miner-fs-3
+jarkin      1440    1397  0 20:13 ?        00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor
+jarkin      1445    1397  0 20:13 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+jarkin      1449    1397  0 20:13 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+jarkin      1453    1397  0 20:13 ?        00:00:00 /usr/libexec/goa-daemon
+jarkin      1460    1397  0 20:13 ?        00:00:00 /usr/libexec/goa-identity-service
+jarkin      1464    1397  0 20:13 ?        00:00:00 /usr/libexec/gvfs-afc-volume-monitor
+jarkin      1471    1397  0 20:13 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+jarkin      1478    1392  0 20:13 tty2     00:00:00 /usr/libexec/gdm-wayland-session env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --session=ubuntu
+jarkin      1481    1478  0 20:13 tty2     00:00:00 /usr/libexec/gnome-session-binary --session=ubuntu
+jarkin      1520    1397  0 20:13 ?        00:00:00 /usr/libexec/gnome-session-ctl --monitor
+jarkin      1534    1397  0 20:13 ?        00:00:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+jarkin      1551    1534  0 20:13 ?        00:00:00 /usr/libexec/at-spi-bus-launcher --launch-immediately
+jarkin      1552    1397  1 20:13 ?        00:00:19 /usr/bin/gnome-shell
+jarkin      1560    1551  0 20:13 ?        00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus
+jarkin      1576    1397  0 20:13 ?        00:00:00 /usr/libexec/xdg-permission-store
+jarkin      1578    1397  0 20:13 ?        00:00:00 /usr/libexec/gnome-shell-calendar-server
+jarkin      1587    1397  0 20:13 ?        00:00:00 /usr/libexec/evolution-source-registry
+jarkin      1594    1397  0 20:13 ?        00:00:00 /usr/libexec/evolution-calendar-factory
+jarkin      1602    1397  0 20:13 ?        00:00:00 /usr/libexec/dconf-service
+jarkin      1608    1397  0 20:13 ?        00:00:00 /usr/libexec/evolution-addressbook-factory
+jarkin      1612    1418  0 20:13 ?        00:00:00 /usr/libexec/gvfsd-trash --spawner :1.3 /org/gtk/gvfs/exec_spaw/0
+jarkin      1627    1397  0 20:13 ?        00:00:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+jarkin      1629    1397  0 20:13 ?        00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+jarkin      1647    1397  0 20:13 ?        00:00:00 sh -c /usr/bin/ibus-daemon --panel disable $([ "$XDG_SESSION_TYPE" = "x11" ] && echo "--xim")
+jarkin      1648    1397  0 20:13 ?        00:00:00 /usr/libexec/gsd-a11y-settings
+jarkin      1649    1397  0 20:13 ?        00:00:00 /usr/libexec/gsd-color
+jarkin      1651    1647  0 20:13 ?        00:00:00 /usr/bin/ibus-daemon --panel disable
+jarkin      1652    1397  0 20:13 ?        00:00:00 /usr/libexec/gsd-datetime
+jarkin      1653    1397  0 20:13 ?        00:00:00 /usr/libexec/gsd-housekeeping
+jarkin      1655    1397  0 20:13 ?        00:00:00 /usr/libexec/gsd-keyboard
+jarkin      1657    1397  0 20:13 ?        00:00:00 /usr/libexec/gsd-media-keys
+jarkin      1659    1397  0 20:13 ?        00:00:00 /usr/libexec/gsd-power
+jarkin      1660    1397  0 20:13 ?        00:00:00 /usr/libexec/gsd-print-notifications
+jarkin      1662    1397  0 20:13 ?        00:00:00 /usr/libexec/gsd-rfkill
+jarkin      1664    1397  0 20:13 ?        00:00:00 /usr/libexec/gsd-screensaver-proxy
+jarkin      1665    1397  0 20:13 ?        00:00:00 /usr/libexec/gsd-sharing
+jarkin      1666    1397  0 20:13 ?        00:00:00 /usr/libexec/gsd-smartcard
+jarkin      1667    1397  0 20:13 ?        00:00:00 /usr/libexec/gsd-sound
+jarkin      1668    1397  0 20:13 ?        00:00:00 /usr/libexec/gsd-wacom
+jarkin      1692    1397  0 20:13 ?        00:00:00 /usr/bin/spice-vdagent
+jarkin      1709    1651  0 20:13 ?        00:00:00 /usr/libexec/ibus-dconf
+jarkin      1713    1651  0 20:13 ?        00:00:00 /usr/libexec/ibus-extension-gtk3
+jarkin      1720    1552  0 20:13 ?        00:00:00 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.EHSUY1 -listen 4 -listen 5 -displayfd 6 -initfd 7
+jarkin      1723    1397  0 20:13 ?        00:00:00 /usr/libexec/ibus-portal
+jarkin      1763    1651  0 20:13 ?        00:00:00 /usr/libexec/ibus-engine-simple
+jarkin      1768    1397  0 20:13 ?        00:00:00 /usr/libexec/gsd-printer
+jarkin      1786    1397  0 20:13 ?        00:00:00 /usr/libexec/xdg-desktop-portal
+jarkin      1790    1397  0 20:13 ?        00:00:00 /usr/libexec/xdg-document-portal
+root        1795    1790  0 20:13 ?        00:00:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+jarkin      1799    1397  0 20:13 ?        00:00:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.ScreenSaver
+jarkin      1800    1397  0 20:13 ?        00:00:00 /usr/libexec/xdg-desktop-portal-gnome
+jarkin      1830    1397  0 20:13 ?        00:00:00 /usr/libexec/gsd-xsettings
+jarkin      1851    1397  0 20:13 ?        00:00:00 /usr/libexec/xdg-desktop-portal-gtk
+jarkin      1867    1397  0 20:13 ?        00:00:00 /usr/libexec/ibus-x11
+jarkin      1885    1534  0 20:13 ?        00:00:00 /usr/libexec/gsd-disk-utility-notify
+jarkin      1890    1534  0 20:13 ?        00:00:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+jarkin      1959    1397  0 20:13 ?        00:00:00 /usr/libexec/gvfsd-metadata
+jarkin      1990    1397  0 20:13 ?        00:00:00 /usr/bin/gnome-calendar --gapplication-service
+jarkin      1993    1397  0 20:13 ?        00:00:02 /usr/libexec/gnome-terminal-server
+jarkin      2110    1993  0 20:13 pts/0    00:00:00 bash
+jarkin      2151    1534  0 20:14 ?        00:00:00 update-notifier
+root        2364       2  0 20:18 ?        00:00:00 [kworker/5:1-inode_switch_wbs]
+root        2365       1  0 20:18 ?        00:00:04 /usr/lib/snapd/snapd
+root        3182       2  0 20:18 ?        00:00:00 [kworker/4:0-cgroup_destroy]
+jarkin      3275    1552  0 20:22 ?        00:00:00 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com -M 0 -D 0:0:1280:800:1:27:0:0:0:0
+root        3318       2  0 20:22 ?        00:00:00 [kworker/0:0-events]
+root        3322       2  0 20:27 ?        00:00:00 [kworker/4:2]
+root        3329       2  0 20:28 ?        00:00:00 [kworker/0:1-events]
+root        3341       2  0 20:28 ?        00:00:00 [kworker/u12:0-flush-253:0]
+root        3356       2  0 20:29 ?        00:00:00 [kworker/1:0-events]
+root        3357       2  0 20:30 ?        00:00:00 [kworker/3:0-events]
+jarkin      3619    2110  0 20:30 pts/0    00:00:00 ps -ef
