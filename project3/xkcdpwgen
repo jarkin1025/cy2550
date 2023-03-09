@@ -1,0 +1,65 @@
+#!/usr/bin/python3
+
+#importing random and argument parser modules
+import random
+import argparse
+
+#instantiating the argument parser class
+parser = argparse.ArgumentParser(description = "Generates a secure, memorable password using the XKCD method")
+
+#adding arguments
+parser.add_argument("-w", "--words", help = "changes the amount of words in the password to the given number", default = 4, type = int)
+parser.add_argument("-c", "--caps", help = "capitalizes the first letter of the given number of random words in the password", default = 0, type = int)
+parser.add_argument("-n", "--numbers", help = "inserts the given amount of random numbers into the password", default = 0, type = int)
+parser.add_argument("-s", "--symbols", help = "inserts the given amount of random symbols into the password", default = 0, type = int)
+
+#manipulate according to args
+args = parser.parse_args()
+
+#creating list of all words in the text file
+word_list = []
+with open("words.txt") as file:
+  for line in file:
+    word_list = file.read().splitlines()
+  
+#add the randomly generated numbers of words to a list
+pw_list = []
+words = args.words
+pw_list = random.choices(word_list, k = words)
+
+#capitalization argument
+cap_words = args.caps
+
+if (cap_words > len(pw_list)):
+  raise ValueError("given value cannot be greater than the number of words in the password")
+
+while cap_words > 0:
+  word = random.choice(pw_list)
+  if (word[0:1].isupper()):
+    continue
+  else:
+    word_index = pw_list.index(word)
+    pw_list[word_index] = word.capitalize()
+    cap_words -= 1
+    
+
+#random number insert argument
+nums = args.numbers
+while nums > 0:
+  num = str(random.randint(0,9))
+  num_index = random.randint(0, len(pw_list) + 1)
+  pw_list.insert(num_index, num)
+  nums -= 1
+
+#random symbol insert argument
+symbol_options = ["~", "!", "@", "#", "$", "%", "^", "&", "*", ".", ":", ";"]
+symbols = args.symbols
+while symbols > 0:
+  symbol = random.choice(symbol_options)
+  symbol_index = random.randint(0, len(pw_list) + 1)
+  pw_list.insert(symbol_index, symbol)
+  symbols -= 1
+
+#Joining the password list to a single string for the final password
+print(''.join(pw_list))
+
