@@ -1,0 +1,20 @@
+abi <abi/3.0>,
+include <tunables/global>
+
+/home/jarkin/cy2550/project5/p2 {
+  /home/jarkin/cy2550/project5/p2 mr,
+  /home/jarkin/.project2/config w,
+  /tmp/project* rw,
+  /var/log/syslog r,
+  /etc/fstab rw,
+  /proc/version r,
+  /proc/buddyinfo r,
+  /etc/crontab r,
+  /etc/apparmor.d/home/jarkin/ rw,
+  /run/systemd/resolve/stub-resolv.conf r,
+  /etc/passwd r,
+  /etc/hosts r,
+  /home/jarkin/cy2550/project5/template r,
+  network tcp,
+  /usr/lib/aarch64-linux-gnu/libc.so.6 mr,
+}
